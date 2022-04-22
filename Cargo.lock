@@ -3,18 +3,6 @@
 version = 3
 
 [[package]]
-name = "Kinesis"
-version = "0.1.0"
-dependencies = [
- "bevy",
- "bevy_asset_loader",
- "bevy_kira_audio",
- "embed-resource",
- "rand",
- "winit 0.25.0",
-]
-
-[[package]]
 name = "ab_glyph"
 version = "0.2.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1789,6 +1777,18 @@ checksum = "8c2352bd1d0bceb871cb9d40f24360c8133c11d7486b68b5381c1dd1a32015e3"
 dependencies = [
  "libc",
  "libloading 0.7.3",
+]
+
+[[package]]
+name = "kinesis"
+version = "0.1.0"
+dependencies = [
+ "bevy",
+ "bevy_asset_loader",
+ "bevy_kira_audio",
+ "embed-resource",
+ "rand",
+ "winit 0.25.0",
 ]
 
 [[package]]

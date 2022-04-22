@@ -3,12 +3,12 @@
 
 use bevy::prelude::{App, ClearColor, Color, Msaa, WindowDescriptor};
 use bevy::DefaultPlugins;
-use bevy_game::GamePlugin;
+use kinesis::GamePlugin;
 
 fn main() {
     App::new()
         .insert_resource(Msaa { samples: 1 })
-        .insert_resource(ClearColor(Color::rgb(0.4, 0.4, 0.4)))
+        .insert_resource(ClearColor(Color::rgb(0.0, 0.0, 0.0)))
         .insert_resource(WindowDescriptor {
             width: 800.,
             height: 600.,
